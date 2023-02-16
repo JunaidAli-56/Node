@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #d0d0d0;
+}
+
+.col-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #FFF;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    border-radius: 16px;
+}
+
+.info {
+    /* background-color: #3c8bb5; */
+    margin-top: 50px;
+    position: relative;
+}
+#quoticon i{
+    font-size: 58px;
+    color: #969696;
+}
+#quotes {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #494949;
+}
+
+#author {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: #969696;
+    margin-right:5px;
+}
+
+#tweetBtn {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    background: none;
+    color: #1ba6f1;
+}
+
+#tweetBtn:hover {
+    color: #3c8bb5;
+}
+
+#btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #1ba6f1;
+    border: 0;
+    color: white;
+    border-radius: 0px 0px 16px 16px;
+    cursor: pointer;
+}
